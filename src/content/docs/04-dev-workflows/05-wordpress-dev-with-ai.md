@@ -16,6 +16,8 @@ If you're a WordPress developer, Claude Code is a game-changer. It understands P
 
 ## Setting Up Your CLAUDE.md for WordPress
 
+Your `CLAUDE.md` is critical for WordPress projects because WordPress is **database-driven** — Claude can't discover post types, fields, or settings by reading PHP files alone.
+
 ```markdown
 # WordPress Project
 

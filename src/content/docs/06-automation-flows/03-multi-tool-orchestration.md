@@ -12,7 +12,7 @@ The real power of AI-assisted development emerges when you orchestrate multiple 
 Instead of using one tool at a time, you chain them:
 
 ```
-Notion (read spec) → Claude Code (build) → GitHub (PR) → Cloudflare (deploy)
+Email → Cloudflare Worker → GitHub Issue → Claude Code → PR → Deploy
 ```
 
 Claude coordinates the entire flow in a single session.
@@ -31,6 +31,8 @@ Claude's workflow:
 4. **Git** → Creates a branch and commits
 5. **GitHub CLI** → Creates a pull request
 6. **Cloudflare MCP** → Deploys to staging environment
+
+For a complete working example of this pattern applied to WordPress, see the [Agentic WordPress Pipeline case study](/04-dev-workflows/08-agentic-wordpress-pipeline/).
 
 ## Pattern: Issue-Driven Development
 

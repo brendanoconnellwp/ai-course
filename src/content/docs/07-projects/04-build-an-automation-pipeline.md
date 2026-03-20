@@ -7,6 +7,10 @@ sidebar:
 
 Build an automation pipeline that demonstrates the power of connecting multiple services through Claude Code and MCP.
 
+:::tip[Real-World Reference]
+Before starting this project, read the [Agentic WordPress Pipeline case study](/04-dev-workflows/08-agentic-wordpress-pipeline/) — it's a working version of this pattern that turns client emails into deployed WordPress features in 10 minutes. The project below adapts the same architecture for a content publishing workflow.
+:::
+
 ## What You'll Build
 
 A **content publishing pipeline** that automates the journey from idea to published content:
