@@ -1,0 +1,29 @@
+/* Bare :root prevents flash of unstyled content on navigation */
+:root,
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #1a1a2e;
+	--sl-color-accent: #e94560;
+	--sl-color-accent-high: #f5c6d0;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c0c2c7;
+	--sl-color-gray-3: #888b96;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353841;
+	--sl-color-gray-6: #24272f;
+	--sl-color-black: #17181c;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f5c6d0;
+	--sl-color-accent: #c81e4a;
+	--sl-color-accent-high: #1a1a2e;
+	--sl-color-white: #17181c;
+	--sl-color-gray-1: #24272f;
+	--sl-color-gray-2: #545861;
+	--sl-color-gray-3: #888b96;
+	--sl-color-gray-4: #c0c2c7;
+	--sl-color-gray-5: #eceef2;
+	--sl-color-gray-6: #f5f6f8;
+	--sl-color-black: #ffffff;
+}
